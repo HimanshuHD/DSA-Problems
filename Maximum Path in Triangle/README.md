@@ -29,7 +29,7 @@ console.log('Maximum Path is > ', _maxPath_dp(A));
 ```
 
 ----------
-
+$n^2$
 - Time Complexity: O(n^2)
 - Space Complexity: O(n^2)
 - To improve Space Complexity we can use the same input array A instead of new array name MP,then Space Complexity: O(1)
