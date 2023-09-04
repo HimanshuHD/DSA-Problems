@@ -1,11 +1,11 @@
 
 # Maximum Path in Triangle
-----------
 ## Dynamic Programming
-----------
 
 ``param A : array of array of integers
-return an integer``
+``return an integer
+
+----------
 
 - Time Complexity: O(n^2)
 - Space Complexity: O(n^2)
