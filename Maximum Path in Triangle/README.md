@@ -1,12 +1,15 @@
 # Maximum Path in Triangle
+
 ## Dynamic Programming
 
-`param A : array of array of integers`
-`return an integer`
+`Easy`
+`Dynamic Programming`
 
 ----------
 
 ```javascript
+// @param A : array of array of integers
+// @return an integer
 let _maxPath_dp = function(A){
   let MP = new Array(A[0].length);
   for(let i = A[0].length-1; i >= 0; i--) {
