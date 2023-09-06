@@ -1,7 +1,5 @@
 # Maximum Path in Triangle
 
-## Dynamic Programming
-
 `Easy`
 `Dynamic Programming`
 
@@ -31,8 +29,8 @@ let A = [[725,0,0,0,0,0,0,0,0,0],[479,359,0,0,0,0,0,0,0,0],[963,465,706,0,0,0,0,
 console.log('Maximum Path is > ', _maxPath_dp(A));
 ```
 
-----------
-
 - Time Complexity: O($n^2$)
 - Space Complexity: O($n^2$)
 - To improve Space Complexity we can use the same input array A instead of new array name MP,then Space Complexity: O($1$)
+
+----------
