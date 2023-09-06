@@ -1,13 +1,15 @@
 # Maximum Path in Triangle
 
 `Easy`
+`2D Arrays`
 `Dynamic Programming`
 
 ----------
 
 ```javascript
-// @param A : array of array of integers
-// @return an integer
+// @param - an array of array of integers : A
+// @return - an integer : minimum path value
+
 let _maxPath_dp = function(A){
   let MP = new Array(A[0].length);
   for(let i = A[0].length-1; i >= 0; i--) {
