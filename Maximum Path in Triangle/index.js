@@ -1,5 +1,5 @@
 
-// Q5. Maximum Path in Triangle
+// **Maximum Path in Triangle
 // Dynamic Programming
 // param A : array of array of integers
 // return an integer
