@@ -54,7 +54,7 @@ let inputArr = [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log('Target found at index > ', _searchItem(inputArr, 11));
 ```
 
-- Time Complexity: O($log n$)
+- Time Complexity: O($log$ $n$)
 - Space Complexity: O($1$)
 
 ----------
