@@ -18,27 +18,27 @@ You can assume that no duplicates exist in the array.
 
 *NOTE: You are expected to solve this problem with a time complexity of O(log(N)).*
 
-## Problem Constraints
+### Problem Constraints
 
 > 1 <= N <= 1000000  
 > 1 <= A[i] <= 109  
 > All elements in A are Distinct.
 
-## Input Format
+### Input Format
 
 > The First argument given is the integer array A.  
 > The Second argument given is the integer B.
 
-## Output Format
+### Output Format
 
 > Return index of B in array A, otherwise return -1
 
-## Example Input
+### Example Input
 
 > A = [4, 5, 6, 7, 0, 1, 2, 3]  
 > B = 4
 
-## Example Output
+### Example Output
 
 > 0
 
