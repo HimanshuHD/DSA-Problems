@@ -6,7 +6,38 @@
 
 ----------
 
-## Brute Force Approach
+## Problem Statement
+
+Given a string A consisting of lowercase characters.
+
+We need to tell minimum characters to be appended (insertion at end) to make the string A a palindrome.
+
+### Problem Constraints
+
+> 1 <= |A| <= 105  
+A consists only of lower-case characters.
+
+### Input Format
+
+> First and only argument is an string A.
+
+### Output Format
+
+> Return a integer denoting the minimum characters to be appended (insertion at end) to make the string A a palindrome.
+
+### Example Input
+
+> A = "abede"
+
+### Example Output
+
+> 2
+
+----------
+
+## Solution
+
+### Brute Force Approach
 
 ```javascript
 // @param - a string of length n : str
@@ -38,9 +69,7 @@ console.log('Minimum Appends for Palindrome > ', _minAppends_brute(inputStr));
 - Time Complexity: O($n^2$)
 - Space Complexity: O($1$)
 
-----------
-
-## Optimal Approach
+### Optimal Approach
 
 ```javascript
 // @param - a string of length n : str
