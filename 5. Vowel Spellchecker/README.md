@@ -47,12 +47,12 @@ The Second argument given is and array of search terms: `querylist`
 
 ### Example Input
 
-> wordlist = ["KiTe", "kite", "hare", "Hare"],  
-queries = ["kite", "Kite", "KiTe", "Hare", "HARE", "Hear", "hear", "keti", "keet", "keto"]
+> `wordlist = ["KiTe", "kite", "hare", "Hare"]`,  
+`queries = ["kite", "Kite", "KiTe", "Hare", "HARE", "Hear", "hear", "keti", "keet", "keto"]`
 
 ### Example Output
 
-> ["kite", "KiTe", "KiTe", "Hare", "hare", "", "", "KiTe", "", "KiTe"]
+> `["kite", "KiTe", "KiTe", "Hare", "hare", "", "", "KiTe", "", "KiTe"]`
 
 ----------
 
