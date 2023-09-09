@@ -1,6 +1,6 @@
 // **Two Sum
 
-let _findTwoSum = function(wordlist, querylist) {
+let _findTwoSum = function(nums, target) {
     let hashMap = new Map();
     // for (i in nums) {
     //     hashMap.set(nums[i], i);
