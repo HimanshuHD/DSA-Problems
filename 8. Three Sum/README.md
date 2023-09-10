@@ -20,7 +20,11 @@ Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[
 
 ### Input Format
 
+> The First and only argument given is an array of integers: `nums`  
+
 ### Output Format
+
+> Return an array of array of integers: `[nums[i], nums[j], nums[k]]` including all the triplets which sums up to `0`
 
 ### Example Input
 
