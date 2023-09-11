@@ -2,7 +2,6 @@
 
 `Medium`
 `Arrays`
-`Set`
 `Two Pointers`
 
 ----------
@@ -82,7 +81,7 @@ var _threeSumMulti = function(arr, target) {
 
 let nums = [-1, 0, 1, 2, -1, -4, 3, 2, 3];
 let target = 8;
-console.log(` of triplets which sums up to 0 > `, _threeSumMulti(nums, target));
+console.log(`Number of triplets which sums up to ${target} > `, _threeSumMulti(nums, target));
 ```
 
 - Time Complexity: O($n^2$)
