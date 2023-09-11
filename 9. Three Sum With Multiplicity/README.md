@@ -2,7 +2,6 @@
 
 `Medium`
 `Arrays`
-`Set`
 `Two Pointers`
 
 ----------
