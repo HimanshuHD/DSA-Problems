@@ -18,4 +18,4 @@ let _isValidBracketString = function(s) {
 };
 
 let str = '()[()]{{}()}';
-console.log(`'${str}' - This bracket string is`, _isValidBracketString(str) ? 'valid.': 'invalid.');
+console.log(`'${str}' - Is this bracket string valid ? > `, _isValidBracketString(str));
