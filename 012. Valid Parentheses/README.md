@@ -20,50 +20,56 @@ An input string is valid if:
 ### Problem Constraints
 
 > `1 <= s.length <= 104`  
-`s` consists of parentheses only `'()[]{}'`.
+`s` consists of brackets only `'()[]{}'`.
 
 ### Input Format
 
-> The First and only argument given is an integer: `n`
+> The First and only argument given is a string of brackets only: `s`
 
 ### Output Format
 
-> Returns an integer: `$n^th$` term in the **Fibonacci sequence**
+> Returns a boolean: `true` or `false` based on whether input string is valid or not
 
 ### Example Input
 
-> `n = 8`
+> `s = '()[()]{{}()}'`
 
 ### Example Output
 
-> `21`
+> `true`
 
 ----------
 
 ## Solution
 
 ```javascript
-// @param - an array of integers: `nums`  
-// @param - an integer: `target`
-// @return - an array of array of integers: of elements from `nums` which sums up to the `target`
+// @param - a string consisting of brackets only: s
+// @return - a boolean: true or false based on whether input string is valid or not
 
-let _nthFibonacci = function(n) {
-    let fibNum = new Array(n);
-    fibNum[0] = 0;
-    fibNum[1] = 1;
+let _isValidBracketString = function(s) {
+    const bracketStack = [];
+    const bracketMapping = new Map([
+        [')', '('],
+        ['}', '{'],
+        [']', '[']
+    ]);
 
-    for (let i = 2; i <= n; i++) {
-        fibNum[i] = fibNum[i-1] + fibNum[i-2];
+    for (const bracket of s) {
+        if (bracket === '(' || bracket === '{' || bracket === '[')
+            bracketStack.push(bracket);
+        else if (bracketStack.length === 0 || bracketMapping.get(bracket) !== bracketStack.pop()) return false
     }
 
-    return fibNum[n];
+    return bracketStack.length === 0;
 };
 
-let n = 8;
-console.log(`${n}th Fibonacci number is > `, _nthFibonacci(n));
+let str = '()[()]{{}()}';
+console.log(`'${str}' - Is this bracket string valid ? > `, _isValidBracketString(str));
 ```
 
 - Time Complexity: O($n$)
 - Space Complexity: O($n$)
+
+> where `n` is the length of input string `s`
 
 ----------
