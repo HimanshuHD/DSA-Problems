@@ -40,9 +40,8 @@ Given `n`, calculate `F(n)`.
 ## Solution
 
 ```javascript
-// @param - an array of integers: `nums`  
-// @param - an integer: `target`
-// @return - an array of array of integers: of elements from `nums` which sums up to the `target`
+// @param - an integer: `n`
+// @return - an integer: nth term in the Fibonacci Sequence
 
 let _nthFibonacci = function(n) {
     let fibNum = new Array(n);
