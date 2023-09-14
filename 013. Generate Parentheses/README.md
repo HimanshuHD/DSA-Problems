@@ -17,7 +17,7 @@ Given `n` pairs of parentheses, write a function to generate all combinations of
 
 ### Input Format
 
-> The First and only argument given is a string representing number of pair of parentheses: `s`
+> The First and only argument given an integer representing number of pair of parentheses: `s`
 
 ### Output Format
 
