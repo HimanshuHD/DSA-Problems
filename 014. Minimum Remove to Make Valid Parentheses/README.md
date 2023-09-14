@@ -44,8 +44,8 @@ Formally, a parentheses string is valid if and only if:
 ## Solution
 
 ```javascript
-// @param - a string consisting of brackets only: s
-// @return - a boolean: true or false based on whether input string is valid or not
+// @param - a string consisting of either `'('` , `')'`, or lowercase english letter: s
+// @return - a string: valid parentheses string
 
 let _minRemoveToMakeValid = function(s) {
     let parenthesesStack = [];

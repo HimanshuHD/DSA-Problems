@@ -16,5 +16,5 @@ let _minRemoveToMakeValid = function(s) {
     return s.join('');
 };
 
-let n = 'lee(t(c)o)de)';
-console.log(`Valid string after removing parentheses is > `, _minRemoveToMakeValid(n));
+let str = 'lee(t(c)o)de)';
+console.log(`Valid string after removing parentheses is > `, _minRemoveToMakeValid(str));
