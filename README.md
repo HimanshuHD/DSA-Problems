@@ -10,3 +10,7 @@
 008. [Three Sum *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/dev/8.%20Three%20Sum)
 009. [Three Sum with Multiplicity *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/dev/9.%20Three%20Sum%20With%20Multiplicity)
 010. [Four Sum or k Sum *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/dev/10.%20Four%20Sum%20(k%20Sum))
+011. [Fibonacci Number *[Easy]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/011.%20Fibonacci%20Number)
+012. [Valid Parentheses *[Easy]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/012.%20Valid%20Parentheses)
+013. [Generate Parentheses *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/013.%20Generate%20Parentheses)
+014. [Minimum Remove to Make Valid Parentheses *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/014.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses)
