@@ -15,4 +15,6 @@
 013. [Generate Parentheses *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/013.%20Generate%20Parentheses)
 014. [Minimum Remove to Make Valid Parentheses *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/014.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses)
 015. [Longest Substring Without Repeating Characters *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/015.%20Longest%20Substring%20Without%20Repeating%20Characters)
-
+016. [Minimum Number of Swaps to Make the String Balanced *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/016.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced)
+017. [Minimum Add to Make Parentheses Valid *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/017.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid)
+018. [Letter Combinations of a Phone Number *[Medium]*](https://github.com/HimanshuHD/DSA-Problems/tree/main/018.%20Letter%20Combinations%20of%20a%20Phone%20Number)
