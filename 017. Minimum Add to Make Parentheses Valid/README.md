@@ -1,4 +1,4 @@
-# Minimum Number of Swaps to Make the String Balanced
+# Minimum Add to Make Parentheses Valid
 
 `Medium`
 `Strings`
