@@ -10,7 +10,7 @@
 
 You are given a 0-indexed string `s` of even length `n`. The string consists of exactly `n / 2` opening brackets `'['` and `n / 2` closing brackets `']'`.
 
-A string is called **balanced** if and only if:
+A string is called **balanced** if and only if
 
 - It is the empty string, or
 - It can be written as `AB`, where both `A` and `B` are balanced strings, or
