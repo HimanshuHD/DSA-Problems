@@ -12,6 +12,8 @@ Given a string containing digits from `2-9` inclusive, return all possible lette
 
 A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
+![Telephone Keypad](./telephone-keypad.png)
+
 ### Problem Constraints
 
 > `0 <= digits.length <= 4`  
