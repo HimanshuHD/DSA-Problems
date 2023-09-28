@@ -43,8 +43,6 @@ A mapping of digits to letters (just like on the telephone buttons) is given bel
 // @param - a string containing digits from '2-9': digits
 // @return - an array of strings: all possible letter combinations that the number could represent
 
-// **Letter Combinations of a Phone Number
-
 let _letterCombination_backtrack = function(map, digits, i, str, ans) {
     for(let ch of map[digits[i]]+"") {
         str[i] = ch;
